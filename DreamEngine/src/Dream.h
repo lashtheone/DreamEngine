@@ -5,7 +5,7 @@
 
 
 #include "DreamEngine/APP.h"
-
+#include "DreamEngine/Log.h"
 
 // ----------EntryPoint----------
 #include "DreamEngine/EntryPoint.h"

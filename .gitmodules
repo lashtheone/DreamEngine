@@ -1,0 +1,3 @@
+[submodule "DreamEngine/vendor/spdlog"]
+	path = DreamEngine/vendor/spdlog
+	url = git@github.com:gabime/spdlog.git
