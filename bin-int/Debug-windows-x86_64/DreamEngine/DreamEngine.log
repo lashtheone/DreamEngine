@@ -1,0 +1,16 @@
+﻿cl : 命令行  warning D9025: 正在重写“/MTd”(用“/MDd”)
+  APP.cpp
+  Log.cpp
+C:\dev\DreamEngine\DreamEngine\src\DreamEngine\Log.h(14,42): warning C4251: “DreamEngine::Log::s_CoreLogger”:“std::shared_ptr<spdlog::logger>”需要有 dll 接口以供“DreamEngine::Log”的客户端使用
+  (编译源文件“src/DreamEngine/Log.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(1560,7):
+      参见“std::shared_ptr<spdlog::logger>”的声明
+  
+C:\dev\DreamEngine\DreamEngine\src\DreamEngine\Log.h(15,42): warning C4251: “DreamEngine::Log::s_ClientLogger”:“std::shared_ptr<spdlog::logger>”需要有 dll 接口以供“DreamEngine::Log”的客户端使用
+  (编译源文件“src/DreamEngine/Log.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(1560,7):
+      参见“std::shared_ptr<spdlog::logger>”的声明
+  
+  正在生成代码...
+    正在创建库 ..\bin\Debug-windows-x86_64\DreamEngine\DreamEngine.lib 和对象 ..\bin\Debug-windows-x86_64\DreamEngine\DreamEngine.exp
+  DreamEngine.vcxproj -> C:\dev\DreamEngine\bin\Debug-windows-x86_64\DreamEngine\DreamEngine.dll
