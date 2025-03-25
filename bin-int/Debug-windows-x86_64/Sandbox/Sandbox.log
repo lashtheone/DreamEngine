@@ -1,1 +1,731 @@
-﻿  Sandbox.vcxproj -> C:\dev\DreamEngine\bin\Debug-windows-x86_64\Sandbox\Sandbox.exe
+﻿cl : 命令行  warning D9025: 正在重写“/MTd”(用“/MDd”)
+  Sandbox.cpp
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(409,18): warning C4996: 'stdext::checked_array_iterator<T*>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+  (编译源文件“src/Sandbox.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iterator(1493,35):
+      参见“stdext::checked_array_iterator”的声明
+      C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(409,18):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(409,8):
+          在编译类模板“fmt::v5::internal::checked”时
+  
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(413,1): warning C4996: 'stdext::checked_array_iterator<T*>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+  (编译源文件“src/Sandbox.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iterator(1493,35):
+      参见“stdext::checked_array_iterator”的声明
+  
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(409,18): warning C4996: 'stdext::checked_array_iterator<T *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(409,18): warning C4996:         with
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(409,18): warning C4996:         [
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(409,18): warning C4996:             T=char
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(409,18): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iterator(1493,35):
+      参见“stdext::checked_array_iterator”的声明
+      C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(409,18):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(3342,28):
+          查看对正在编译的 类 模板 实例化“fmt::v5::arg_formatter<fmt::v5::vformat_to::range>”的引用
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2308,51):
+          查看对正在编译的 类 模板 实例化“fmt::v5::internal::arg_formatter_base<Range>”的引用
+          with
+          [
+              Range=fmt::v5::vformat_to::range
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1434,15):
+          查看对正在编译的 类 模板 实例化“fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::buffer>>”的引用
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2424,53):
+          查看对正在编译的函数 模板 实例化“std::enable_if<fmt::v5::is_contiguous<Container>::value,checked<Container::value_type>::type>::type fmt::v5::internal::reserve(std::back_insert_iterator<_Container> &,size_t)”的引用
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2424,53):
+          查看对正在编译的 类 模板 实例化“fmt::v5::internal::checked<T>”的引用
+          with
+          [
+              T=char
+          ]
+  
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(409,18): warning C4996: 'stdext::checked_array_iterator<T *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(409,18): warning C4996:         with
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(409,18): warning C4996:         [
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(409,18): warning C4996:             T=wchar_t
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(409,18): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iterator(1493,35):
+      参见“stdext::checked_array_iterator”的声明
+      C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(409,18):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(3342,28):
+          查看对正在编译的 类 模板 实例化“fmt::v5::arg_formatter<fmt::v5::vformat_to::range>”的引用
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2308,51):
+          查看对正在编译的 类 模板 实例化“fmt::v5::internal::arg_formatter_base<Range>”的引用
+          with
+          [
+              Range=fmt::v5::vformat_to::range
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1434,15):
+          查看对正在编译的 类 模板 实例化“fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::wbuffer>>”的引用
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2424,53):
+          查看对正在编译的函数 模板 实例化“std::enable_if<fmt::v5::is_contiguous<Container>::value,checked<Container::value_type>::type>::type fmt::v5::internal::reserve(std::back_insert_iterator<_Container> &,size_t)”的引用
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2424,53):
+          查看对正在编译的 类 模板 实例化“fmt::v5::internal::checked<T>”的引用
+          with
+          [
+              T=wchar_t
+          ]
+  
+C:\dev\DreamEngine\DreamEngine\src\DreamEngine\Log.h(15,42): warning C4251: “DreamEngine::Log::s_CoreLogger”:“std::shared_ptr<spdlog::logger>”需要有 dll 接口以供“DreamEngine::Log”的客户端使用
+  (编译源文件“src/Sandbox.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(1560,7):
+      参见“std::shared_ptr<spdlog::logger>”的声明
+  
+C:\dev\DreamEngine\DreamEngine\src\DreamEngine\Log.h(16,42): warning C4251: “DreamEngine::Log::s_ClientLogger”:“std::shared_ptr<spdlog::logger>”需要有 dll 接口以供“DreamEngine::Log”的客户端使用
+  (编译源文件“src/Sandbox.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(1560,7):
+      参见“std::shared_ptr<spdlog::logger>”的声明
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1289,31): warning C4996: 'stdext::checked_array_iterator<T *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1289,31): warning C4996:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1289,31): warning C4996:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1289,31): warning C4996:             T=char
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1289,31): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iterator(1493,35):
+      参见“stdext::checked_array_iterator”的声明
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1289,31):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(3342,28):
+          查看对正在编译的 类 模板 实例化“fmt::v5::arg_formatter<fmt::v5::vformat_to::range>”的引用
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2308,51):
+          查看对正在编译的 类 模板 实例化“fmt::v5::internal::arg_formatter_base<Range>”的引用
+          with
+          [
+              Range=fmt::v5::vformat_to::range
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1434,15):
+          查看对正在编译的 类 模板 实例化“fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::buffer>>”的引用
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2754,8):
+          在编译 类 模板 成员函数“void fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::buffer>>::write(fmt::v5::string_view)”时
+              C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format-inl.h(176,12):
+              请参阅 "fmt::v5::`anonymous-namespace'::format_error_code" 中对 "fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::buffer>>::write" 的第一个引用
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2756,15):
+          查看对正在编译的函数 模板 实例化“_OutIt std::copy<const char*,stdext::checked_array_iterator<T *>>(_InIt,_InIt,_OutIt)”的引用
+          with
+          [
+              _OutIt=stdext::checked_array_iterator<char *>,
+              T=char,
+              _InIt=const char *
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(4761,31):
+          查看对正在编译的函数 模板 实例化“decltype(auto) std::_Get_unwrapped_n<_OutIt&,__int64>(_Iter,const _Diff)”的引用
+          with
+          [
+              _OutIt=stdext::checked_array_iterator<char *>,
+              _Iter=stdext::checked_array_iterator<char *> &,
+              _Diff=__int64
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1394,26):
+          查看指向正在编译的变量模板“const bool _Unwrappable_for_offset_v<stdext::checked_array_iterator<char *> &>”的引用
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1388,44):
+          查看指向正在编译的变量模板“const bool _Unwrappable_v<stdext::checked_array_iterator<char *> &,void>”的引用
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1317,5):
+          查看指向正在编译的变量模板“const bool _Allow_inheriting_unwrap_v<stdext::checked_array_iterator<char *>,void>”的引用
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1289,22): warning C4996: 'stdext::checked_array_iterator<T *>::_Prevent_inheriting_unwrap': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1289,22): warning C4996:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1289,22): warning C4996:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1289,22): warning C4996:             T=char
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1289,22): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(495,40): warning C4996: 'stdext::checked_array_iterator<T *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(495,40): warning C4996:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(495,40): warning C4996:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(495,40): warning C4996:             T=char
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(495,40): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iterator(1493,35):
+      参见“stdext::checked_array_iterator”的声明
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(495,40):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1384,93):
+          查看对正在编译的 别名 模板 实例化“std::_Iter_diff_t<_Iter>”的引用
+          with
+          [
+              _Iter=stdext::checked_array_iterator<char *>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1193,55):
+          查看对正在编译的 类 模板 实例化“std::iterator_traits<_Iter>”的引用
+          with
+          [
+              _Iter=stdext::checked_array_iterator<char *>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(515,26):
+          查看对正在编译的 类 模板 实例化“std::_Iterator_traits_base<_Iter,void>”的引用
+          with
+          [
+              _Iter=stdext::checked_array_iterator<char *>
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(495,31): warning C4996: 'stdext::checked_array_iterator<T *>::iterator_category': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(495,31): warning C4996:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(495,31): warning C4996:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(495,31): warning C4996:             T=char
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(495,31): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(496,40): warning C4996: 'stdext::checked_array_iterator<T *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(496,40): warning C4996:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(496,40): warning C4996:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(496,40): warning C4996:             T=char
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(496,40): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iterator(1493,35):
+      参见“stdext::checked_array_iterator”的声明
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(496,31): warning C4996: 'stdext::checked_array_iterator<T *>::value_type': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(496,31): warning C4996:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(496,31): warning C4996:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(496,31): warning C4996:             T=char
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(496,31): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(497,40): warning C4996: 'stdext::checked_array_iterator<T *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(497,40): warning C4996:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(497,40): warning C4996:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(497,40): warning C4996:             T=char
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(497,40): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iterator(1493,35):
+      参见“stdext::checked_array_iterator”的声明
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(497,31): warning C4996: 'stdext::checked_array_iterator<T *>::difference_type': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(497,31): warning C4996:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(497,31): warning C4996:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(497,31): warning C4996:             T=char
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(497,31): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(498,40): warning C4996: 'stdext::checked_array_iterator<T *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(498,40): warning C4996:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(498,40): warning C4996:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(498,40): warning C4996:             T=char
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(498,40): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iterator(1493,35):
+      参见“stdext::checked_array_iterator”的声明
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(498,31): warning C4996: 'stdext::checked_array_iterator<T *>::pointer': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(498,31): warning C4996:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(498,31): warning C4996:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(498,31): warning C4996:             T=char
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(498,31): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(499,40): warning C4996: 'stdext::checked_array_iterator<T *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(499,40): warning C4996:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(499,40): warning C4996:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(499,40): warning C4996:             T=char
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(499,40): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iterator(1493,35):
+      参见“stdext::checked_array_iterator”的声明
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(499,31): warning C4996: 'stdext::checked_array_iterator<T *>::reference': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(499,31): warning C4996:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(499,31): warning C4996:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(499,31): warning C4996:             T=char
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp(499,31): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1405,13): warning C4996: 'stdext::checked_array_iterator<T *>::_Verify_offset': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1405,13): warning C4996:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1405,13): warning C4996:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1405,13): warning C4996:             T=char
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1405,13): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1406,42): warning C4996: 'stdext::checked_array_iterator<T *>::_Unwrapped': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1406,42): warning C4996:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1406,42): warning C4996:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1406,42): warning C4996:             T=char
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1406,42): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+  
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2486,7): warning C4996: 'stdext::checked_array_iterator<T *>::operator *': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2486,7): warning C4996:         with
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2486,7): warning C4996:         [
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2486,7): warning C4996:             T=char
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2486,7): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+      C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2486,7):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2704,8):
+          在编译 类 模板 成员函数“void fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::buffer>>::write(int)”时
+              C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format-inl.h(180,10):
+              请参阅 "fmt::v5::`anonymous-namespace'::format_error_code" 中对 "fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::buffer>>::write" 的第一个引用
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2704,27):
+          查看对正在编译的函数 模板 实例化“void fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::buffer>>::write_decimal<int>(Int)”的引用
+          with
+          [
+              Int=int
+          ]
+  
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(429,67): warning C4996: 'stdext::checked_array_iterator<T *>::operator +': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(429,67): warning C4996:         with
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(429,67): warning C4996:         [
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(429,67): warning C4996:             T=char
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(429,67): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+      C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(429,67):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\details\pattern_formatter.h(41,21):
+          查看对正在编译的函数 模板 实例化“void spdlog::details::fmt_helper::append_str<500>(const std::string &,fmt::v5::basic_memory_buffer<char,500,std::allocator<char>> &)”的引用
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\details\fmt_helper.h(19,10):
+          查看对正在编译的函数 模板 实例化“void fmt::v5::internal::basic_buffer<char>::append<_Elem>(const U *,const U *)”的引用
+          with
+          [
+              _Elem=char,
+              U=char
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1427,13): warning C4996: 'stdext::checked_array_iterator<T *>::_Seek_to': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1427,13): warning C4996:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1427,13): warning C4996:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1427,13): warning C4996:             T=char
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1427,13): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1427,13):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2756,15):
+          查看对正在编译的函数 模板 实例化“_OutIt std::copy<const char*,stdext::checked_array_iterator<T *>>(_InIt,_InIt,_OutIt)”的引用
+          with
+          [
+              _OutIt=stdext::checked_array_iterator<char *>,
+              T=char,
+              _InIt=const char *
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(4762,10):
+          查看对正在编译的函数 模板 实例化“void std::_Seek_wrapped<_OutIt,char*>(_Iter &,_UIter &&)”的引用
+          with
+          [
+              _OutIt=stdext::checked_array_iterator<char *>,
+              _Iter=stdext::checked_array_iterator<char *>,
+              _UIter=char *
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1405,13): warning C4996: 'stdext::checked_array_iterator<T *>::_Verify_offset': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1405,13): warning C4996:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1405,13): warning C4996:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1405,13): warning C4996:             T=wchar_t
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1405,13): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1405,13):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(3457,10):
+          查看对正在编译的函数 模板 实例化“OutputIt fmt::v5::vformat_to<fmt::v5::arg_formatter<fmt::v5::vformat_to::range>,wchar_t,fmt::v5::wformat_context>(fmt::v5::back_insert_range<fmt::v5::internal::wbuffer>,fmt::v5::basic_string_view<wchar_t>,fmt::v5::basic_format_args<fmt::v5::wformat_context>)”的引用
+          with
+          [
+              OutputIt=std::back_insert_iterator<fmt::v5::internal::basic_buffer<wchar_t>>
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(3345,47):
+          查看对正在编译的 类 模板 实例化“fmt::v5::format_handler<ArgFormatter,Char,Context>”的引用
+          with
+          [
+              ArgFormatter=fmt::v5::arg_formatter<fmt::v5::vformat_to::range>,
+              Char=wchar_t,
+              Context=fmt::v5::wformat_context
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(3296,8):
+          在编译 类 模板 成员函数“void fmt::v5::format_handler<ArgFormatter,Char,Context>::on_text(const Char *,const Char *)”时
+          with
+          [
+              ArgFormatter=fmt::v5::arg_formatter<fmt::v5::vformat_to::range>,
+              Char=wchar_t,
+              Context=fmt::v5::wformat_context
+          ]
+              C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2155,11):
+              请参阅 "fmt::v5::internal::parse_format_string::writer::operator ()" 中对 "fmt::v5::format_handler<ArgFormatter,Char,Context>::on_text" 的第一个引用
+          with
+          [
+              ArgFormatter=fmt::v5::arg_formatter<fmt::v5::vformat_to::range>,
+              Char=wchar_t,
+              Context=fmt::v5::wformat_context
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(3300,15):
+          查看对正在编译的函数 模板 实例化“_OutIt std::copy_n<const Char*,unsigned __int64,stdext::checked_array_iterator<T *>>(_InIt,_Diff,_OutIt)”的引用
+          with
+          [
+              _OutIt=stdext::checked_array_iterator<wchar_t *>,
+              Char=wchar_t,
+              T=wchar_t,
+              _InIt=const wchar_t *,
+              _Diff=unsigned __int64
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(4932,33):
+          查看对正在编译的函数 模板 实例化“_Ptr *std::_Get_unwrapped_n<_OutIt&,unsigned __int64>(_Iter,const _Diff)”的引用
+          with
+          [
+              _Ptr=wchar_t *,
+              _OutIt=stdext::checked_array_iterator<wchar_t *>,
+              _Iter=stdext::checked_array_iterator<wchar_t *> &,
+              _Diff=unsigned __int64
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1406,42): warning C4996: 'stdext::checked_array_iterator<T *>::_Unwrapped': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1406,42): warning C4996:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1406,42): warning C4996:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1406,42): warning C4996:             T=wchar_t
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1406,42): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1427,13): warning C4996: 'stdext::checked_array_iterator<T *>::_Seek_to': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1427,13): warning C4996:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1427,13): warning C4996:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1427,13): warning C4996:             T=wchar_t
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1427,13): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1427,13):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(3300,15):
+          查看对正在编译的函数 模板 实例化“_OutIt std::copy_n<const Char*,unsigned __int64,stdext::checked_array_iterator<T *>>(_InIt,_Diff,_OutIt)”的引用
+          with
+          [
+              _OutIt=stdext::checked_array_iterator<wchar_t *>,
+              Char=wchar_t,
+              T=wchar_t,
+              _InIt=const wchar_t *,
+              _Diff=unsigned __int64
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(4939,26):
+          查看对正在编译的函数 模板 实例化“void std::_Seek_wrapped<_OutIt,_Ptr&>(_Iter &,_UIter)”的引用
+          with
+          [
+              _OutIt=stdext::checked_array_iterator<wchar_t *>,
+              _Ptr=wchar_t *,
+              _Iter=stdext::checked_array_iterator<wchar_t *>,
+              _UIter=wchar_t *&
+          ]
+  
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2746,5): warning C4996: 'stdext::checked_array_iterator<T *>::operator *': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2746,5): warning C4996:         with
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2746,5): warning C4996:         [
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2746,5): warning C4996:             T=wchar_t
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2746,5): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+      C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2746,5):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(3342,28):
+          查看对正在编译的 类 模板 实例化“fmt::v5::arg_formatter<fmt::v5::vformat_to::range>”的引用
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2308,51):
+          查看对正在编译的 类 模板 实例化“fmt::v5::internal::arg_formatter_base<Range>”的引用
+          with
+          [
+              Range=fmt::v5::vformat_to::range
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1434,15):
+          查看对正在编译的 类 模板 实例化“fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::wbuffer>>”的引用
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2744,8):
+          在编译 类 模板 成员函数“void fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::wbuffer>>::write(wchar_t)”时
+              C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1496,7):
+              请参阅 "fmt::v5::internal::arg_formatter_base<Range>::operator ()" 中对 "fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::wbuffer>>::write" 的第一个引用
+          with
+          [
+              Range=fmt::v5::vformat_to::range
+          ]
+              C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\core.h(801,5):
+              请参阅 "fmt::v5::visit" 中对 "fmt::v5::internal::arg_formatter_base<Range>::operator ()" 的第一个引用
+          with
+          [
+              Range=fmt::v5::vformat_to::range
+          ]
+  
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2741,5): warning C4996: 'stdext::checked_array_iterator<T *>::operator *': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2741,5): warning C4996:         with
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2741,5): warning C4996:         [
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2741,5): warning C4996:             T=char
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2741,5): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+      C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2741,5):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2740,8):
+          在编译 类 模板 成员函数“void fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::buffer>>::write(char)”时
+              C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1496,7):
+              请参阅 "fmt::v5::internal::arg_formatter_base<Range>::operator ()" 中对 "fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::buffer>>::write" 的第一个引用
+          with
+          [
+              Range=fmt::v5::vformat_to::range
+          ]
+              C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\core.h(801,5):
+              请参阅 "fmt::v5::visit" 中对 "fmt::v5::internal::arg_formatter_base<Range>::operator ()" 的第一个引用
+          with
+          [
+              Range=fmt::v5::vformat_to::range
+          ]
+  
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2910,7): warning C4996: 'stdext::checked_array_iterator<T *>::operator *': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2910,7): warning C4996:         with
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2910,7): warning C4996:         [
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2910,7): warning C4996:             T=wchar_t
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2910,7): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+      C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2910,7):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(3319,12):
+          在编译 类 模板 成员函数“fmt::v5::internal::null_terminating_iterator<Char> fmt::v5::format_handler<ArgFormatter,Char,Context>::on_format_specs(fmt::v5::internal::null_terminating_iterator<Char>)”时
+          with
+          [
+              Char=wchar_t,
+              ArgFormatter=fmt::v5::arg_formatter<fmt::v5::vformat_to::range>,
+              Context=fmt::v5::wformat_context
+          ]
+              C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2188,12):
+              请参阅 "fmt::v5::internal::parse_format_string" 中对 "fmt::v5::format_handler<ArgFormatter,Char,Context>::on_format_specs" 的第一个引用
+          with
+          [
+              ArgFormatter=fmt::v5::arg_formatter<fmt::v5::vformat_to::range>,
+              Char=wchar_t,
+              Context=fmt::v5::wformat_context
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(3332,29):
+          查看对正在编译的函数 模板 实例化“std::back_insert_iterator<fmt::v5::internal::basic_buffer<wchar_t>> fmt::v5::visit<ArgFormatter,Context>(Visitor &&,const fmt::v5::basic_format_arg<Context> &)”的引用
+          with
+          [
+              ArgFormatter=fmt::v5::arg_formatter<fmt::v5::vformat_to::range>,
+              Context=fmt::v5::wformat_context,
+              Visitor=fmt::v5::arg_formatter<fmt::v5::vformat_to::range>
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\core.h(803,12):
+          查看对正在编译的函数 模板 实例化“std::back_insert_iterator<fmt::v5::internal::basic_buffer<wchar_t>> fmt::v5::internal::arg_formatter_base<Range>::operator ()<double>(T)”的引用
+          with
+          [
+              Range=fmt::v5::vformat_to::range,
+              T=double
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1504,13):
+          查看对正在编译的函数 模板 实例化“void fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::wbuffer>>::write_double<T>(T,const fmt::v5::basic_format_specs<wchar_t> &)”的引用
+          with
+          [
+              T=double
+          ]
+  
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2486,7): warning C4996: 'stdext::checked_array_iterator<T *>::operator *': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2486,7): warning C4996:         with
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2486,7): warning C4996:         [
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2486,7): warning C4996:             T=wchar_t
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2486,7): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+      C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2486,7):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2710,8):
+          在编译 类 模板 成员函数“void fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::wbuffer>>::write(unsigned __int64)”时
+              C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1496,7):
+              请参阅 "fmt::v5::internal::arg_formatter_base<Range>::operator ()" 中对 "fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::wbuffer>>::write" 的第一个引用
+          with
+          [
+              Range=fmt::v5::vformat_to::range
+          ]
+              C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\core.h(797,5):
+              请参阅 "fmt::v5::visit" 中对 "fmt::v5::internal::arg_formatter_base<Range>::operator ()" 的第一个引用
+          with
+          [
+              Range=fmt::v5::vformat_to::range
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2710,42):
+          查看对正在编译的函数 模板 实例化“void fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::wbuffer>>::write_decimal<unsigned __int64>(Int)”的引用
+          with
+          [
+              Int=unsigned __int64
+          ]
+  
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(429,67): warning C4996: 'stdext::checked_array_iterator<T *>::operator +': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(429,67): warning C4996:         with
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(429,67): warning C4996:         [
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(429,67): warning C4996:             T=wchar_t
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(429,67): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+      C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(429,67):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1504,13):
+          查看对正在编译的函数 模板 实例化“void fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::wbuffer>>::write_double<T>(T,const fmt::v5::basic_format_specs<wchar_t> &)”的引用
+          with
+          [
+              T=double
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2899,12):
+          查看对正在编译的函数 模板 实例化“void fmt::v5::internal::basic_buffer<wchar_t>::append<char>(const U *,const U *)”的引用
+          with
+          [
+              U=char
+          ]
+  
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2641,9): warning C4996: 'stdext::checked_array_iterator<T *>::operator *': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2641,9): warning C4996:         with
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2641,9): warning C4996:         [
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2641,9): warning C4996:             T=wchar_t
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2641,9): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+      C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2641,9):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2877,14):
+          查看对正在编译的函数 模板 实例化“void fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::wbuffer>>::write_padded<fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::wbuffer>>::inf_or_nan_writer>(size_t,const fmt::v5::align_spec &,F &&)”的引用
+          with
+          [
+              F=fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::wbuffer>>::inf_or_nan_writer
+          ]
+              C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2877,26):
+              请参阅 "fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::wbuffer>>::write_double::write_inf_or_nan_t::operator ()" 中对 "fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::wbuffer>>::write_padded" 的第一个引用
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2786,12):
+          查看对正在编译的函数 模板 实例化“void fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::wbuffer>>::inf_or_nan_writer::operator ()<stdext::checked_array_iterator<T *>>(It &&) const”的引用
+          with
+          [
+              T=wchar_t,
+              It=stdext::checked_array_iterator<wchar_t *>
+          ]
+  
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2654,9): warning C4996: 'stdext::checked_array_iterator<T *>::operator *': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2654,9): warning C4996:         with
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2654,9): warning C4996:         [
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2654,9): warning C4996:             T=wchar_t
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2654,9): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+      C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2654,9):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2922,3):
+          查看对正在编译的函数 模板 实例化“void fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::wbuffer>>::write_padded<fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::wbuffer>>::double_writer>(size_t,const fmt::v5::align_spec &,F &&)”的引用
+          with
+          [
+              F=fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::wbuffer>>::double_writer
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2786,12):
+          查看对正在编译的函数 模板 实例化“void fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::wbuffer>>::double_writer::operator ()<stdext::checked_array_iterator<T *>>(It &&)”的引用
+          with
+          [
+              T=wchar_t,
+              It=stdext::checked_array_iterator<wchar_t *>
+          ]
+  
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2641,9): warning C4996: 'stdext::checked_array_iterator<T *>::operator *': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2641,9): warning C4996:         with
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2641,9): warning C4996:         [
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2641,9): warning C4996:             T=char
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2641,9): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+      C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2641,9):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(3319,12):
+          在编译 类 模板 成员函数“fmt::v5::internal::null_terminating_iterator<Char> fmt::v5::format_handler<ArgFormatter,Char,Context>::on_format_specs(fmt::v5::internal::null_terminating_iterator<Char>)”时
+          with
+          [
+              Char=char,
+              ArgFormatter=fmt::v5::arg_formatter<fmt::v5::vformat_to::range>,
+              Context=fmt::v5::format_context
+          ]
+              C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2188,12):
+              请参阅 "fmt::v5::internal::parse_format_string" 中对 "fmt::v5::format_handler<ArgFormatter,Char,Context>::on_format_specs" 的第一个引用
+          with
+          [
+              ArgFormatter=fmt::v5::arg_formatter<fmt::v5::vformat_to::range>,
+              Char=char,
+              Context=fmt::v5::format_context
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(3332,29):
+          查看对正在编译的函数 模板 实例化“std::back_insert_iterator<fmt::v5::internal::basic_buffer<char>> fmt::v5::visit<ArgFormatter,Context>(Visitor &&,const fmt::v5::basic_format_arg<Context> &)”的引用
+          with
+          [
+              ArgFormatter=fmt::v5::arg_formatter<fmt::v5::vformat_to::range>,
+              Context=fmt::v5::format_context,
+              Visitor=fmt::v5::arg_formatter<fmt::v5::vformat_to::range>
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\core.h(803,12):
+          查看对正在编译的函数 模板 实例化“std::back_insert_iterator<fmt::v5::internal::basic_buffer<char>> fmt::v5::internal::arg_formatter_base<Range>::operator ()<double>(T)”的引用
+          with
+          [
+              Range=fmt::v5::vformat_to::range,
+              T=double
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1504,13):
+          查看对正在编译的函数 模板 实例化“void fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::buffer>>::write_double<T>(T,const fmt::v5::basic_format_specs<char> &)”的引用
+          with
+          [
+              T=double
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2877,14):
+          查看对正在编译的函数 模板 实例化“void fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::buffer>>::write_padded<fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::buffer>>::inf_or_nan_writer>(size_t,const fmt::v5::align_spec &,F &&)”的引用
+          with
+          [
+              F=fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::buffer>>::inf_or_nan_writer
+          ]
+              C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2877,26):
+              请参阅 "fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::buffer>>::write_double::write_inf_or_nan_t::operator ()" 中对 "fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::buffer>>::write_padded" 的第一个引用
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2786,12):
+          查看对正在编译的函数 模板 实例化“void fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::buffer>>::inf_or_nan_writer::operator ()<stdext::checked_array_iterator<T *>>(It &&) const”的引用
+          with
+          [
+              T=char,
+              It=stdext::checked_array_iterator<char *>
+          ]
+  
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2654,9): warning C4996: 'stdext::checked_array_iterator<T *>::operator *': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2654,9): warning C4996:         with
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2654,9): warning C4996:         [
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2654,9): warning C4996:             T=char
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2654,9): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+      C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2654,9):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2922,3):
+          查看对正在编译的函数 模板 实例化“void fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::buffer>>::write_padded<fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::buffer>>::double_writer>(size_t,const fmt::v5::align_spec &,F &&)”的引用
+          with
+          [
+              F=fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::buffer>>::double_writer
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2786,12):
+          查看对正在编译的函数 模板 实例化“void fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::buffer>>::double_writer::operator ()<stdext::checked_array_iterator<T *>>(It &&)”的引用
+          with
+          [
+              T=char,
+              It=stdext::checked_array_iterator<char *>
+          ]
+  
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1440,38): warning C4996: 'stdext::checked_array_iterator<T *>::operator *': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1440,38): warning C4996:         with
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1440,38): warning C4996:         [
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1440,38): warning C4996:             T=wchar_t
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1440,38): warning C4996:         ]
+  (编译源文件“src/Sandbox.cpp”)
+      C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1440,38):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1443,8):
+          在编译 类 模板 成员函数“void fmt::v5::internal::arg_formatter_base<Range>::write_char(wchar_t)”时
+          with
+          [
+              Range=fmt::v5::vformat_to::range
+          ]
+              C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1521,42):
+              请参阅 "fmt::v5::internal::arg_formatter_base<Range>::char_spec_handler::on_char" 中对 "fmt::v5::internal::arg_formatter_base<Range>::write_char" 的第一个引用
+          with
+          [
+              Range=fmt::v5::vformat_to::range
+          ]
+              C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1306,15):
+              请参阅 "fmt::v5::internal::handle_char_specs" 中对 "fmt::v5::internal::arg_formatter_base<Range>::char_spec_handler::on_char" 的第一个引用
+          with
+          [
+              Range=fmt::v5::vformat_to::range
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1445,15):
+          查看对正在编译的函数 模板 实例化“void fmt::v5::basic_writer<fmt::v5::back_insert_range<fmt::v5::internal::wbuffer>>::write_padded<fmt::v5::internal::arg_formatter_base<Range>::char_writer>(size_t,const fmt::v5::align_spec &,F &&)”的引用
+          with
+          [
+              Range=fmt::v5::vformat_to::range,
+              F=fmt::v5::internal::arg_formatter_base<fmt::v5::vformat_to::range>::char_writer
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2786,12):
+          查看对正在编译的函数 模板 实例化“void fmt::v5::internal::arg_formatter_base<Range>::char_writer::operator ()<stdext::checked_array_iterator<T *>>(It &&) const”的引用
+          with
+          [
+              Range=fmt::v5::vformat_to::range,
+              T=wchar_t,
+              It=stdext::checked_array_iterator<wchar_t *>
+          ]
+  
+  Sandbox.vcxproj -> C:\dev\DreamEngine\bin\Debug-windows-x86_64\Sandbox\Sandbox.exe

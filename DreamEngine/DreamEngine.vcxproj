@@ -149,10 +149,14 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="src\Dream.h" />
+    <ClInclude Include="src\DreamEngine.h" />
     <ClInclude Include="src\DreamEngine\APP.h" />
     <ClInclude Include="src\DreamEngine\Core.h" />
     <ClInclude Include="src\DreamEngine\EntryPoint.h" />
+    <ClInclude Include="src\DreamEngine\Events\APPEvent.h" />
+    <ClInclude Include="src\DreamEngine\Events\Event.h" />
+    <ClInclude Include="src\DreamEngine\Events\KeyEvent.h" />
+    <ClInclude Include="src\DreamEngine\Events\MouseEvent.h" />
     <ClInclude Include="src\DreamEngine\Log.h" />
   </ItemGroup>
   <ItemGroup>

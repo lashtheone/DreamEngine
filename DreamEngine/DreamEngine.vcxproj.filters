@@ -6,7 +6,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Dream.h" />
+    <ClInclude Include="src\DreamEngine.h" />
     <ClInclude Include="src\DreamEngine\APP.h">
       <Filter>DreamEngine</Filter>
     </ClInclude>
@@ -19,6 +19,10 @@
     <ClInclude Include="src\DreamEngine\Log.h">
       <Filter>DreamEngine</Filter>
     </ClInclude>
+    <ClInclude Include="src\DreamEngine\Events\Event.h" />
+    <ClInclude Include="src\DreamEngine\Events\APPEvent.h" />
+    <ClInclude Include="src\DreamEngine\Events\KeyEvent.h" />
+    <ClInclude Include="src\DreamEngine\Events\MouseEvent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\DreamEngine\APP.cpp">
