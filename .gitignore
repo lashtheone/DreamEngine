@@ -1,7 +1,9 @@
 .vs/
-.bin/
-.bin-int/
-
+bin/
+bin-int/
+Debug/
+Release/
+x64/
 [Bb]in/
 [Bb]in-[Ii]nt/
 [Oo]bj/
