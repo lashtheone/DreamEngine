@@ -4,6 +4,9 @@
     <Filter Include="DreamEngine">
       <UniqueIdentifier>{C46D490E-3023-C203-B917-BCDA25CCB807}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DreamEngine\Events">
+      <UniqueIdentifier>{2875A9B7-1459-6A0D-7DB9-646069BC548F}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\DreamEngine.h" />
@@ -16,13 +19,22 @@
     <ClInclude Include="src\DreamEngine\EntryPoint.h">
       <Filter>DreamEngine</Filter>
     </ClInclude>
+    <ClInclude Include="src\DreamEngine\Events\APPEvent.h">
+      <Filter>DreamEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DreamEngine\Events\Event.h">
+      <Filter>DreamEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DreamEngine\Events\KeyEvent.h">
+      <Filter>DreamEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DreamEngine\Events\MouseEvent.h">
+      <Filter>DreamEngine\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\DreamEngine\Log.h">
       <Filter>DreamEngine</Filter>
     </ClInclude>
-    <ClInclude Include="src\DreamEngine\Events\Event.h" />
-    <ClInclude Include="src\DreamEngine\Events\APPEvent.h" />
-    <ClInclude Include="src\DreamEngine\Events\KeyEvent.h" />
-    <ClInclude Include="src\DreamEngine\Events\MouseEvent.h" />
+    <ClInclude Include="src\depch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\DreamEngine\APP.cpp">
@@ -31,5 +43,6 @@
     <ClCompile Include="src\DreamEngine\Log.cpp">
       <Filter>DreamEngine</Filter>
     </ClCompile>
+    <ClCompile Include="src\depch.cpp" />
   </ItemGroup>
 </Project>

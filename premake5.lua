@@ -22,6 +22,8 @@ project "DreamEngine"
 	targetdir ("bin/" ..outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" ..outputdir .. "/%{prj.name}")
 
+	pchheader "depch.h"
+	pchsource "DreamEngine/src/depch.cpp"
 
 	files
 	{

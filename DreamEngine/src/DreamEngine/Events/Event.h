@@ -2,8 +2,6 @@
 
 #include "DreamEngine/Core.h"
 
-#include <string>
-#include <functional>
 
 namespace DreamEngine {
 
