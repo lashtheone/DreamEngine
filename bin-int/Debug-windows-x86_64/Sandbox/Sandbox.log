@@ -82,6 +82,11 @@ C:\dev\DreamEngine\DreamEngine\src\DreamEngine\Log.h(16,42): warning C4251: “D
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(1560,7):
       参见“std::shared_ptr<spdlog::logger>”的声明
   
+C:\dev\DreamEngine\DreamEngine\src\DreamEngine\APP.h(17,27): warning C4251: “DreamEngine::APP::m_Window”:“std::unique_ptr<DreamEngine::Window,std::default_delete<DreamEngine::Window>>”需要有 dll 接口以供“DreamEngine::APP”的客户端使用
+  (编译源文件“src/Sandbox.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3335,7):
+      参见“std::unique_ptr<DreamEngine::Window,std::default_delete<DreamEngine::Window>>”的声明
+  
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1289,31): warning C4996: 'stdext::checked_array_iterator<T *>': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1289,31): warning C4996:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1289,31): warning C4996:         [
@@ -728,4 +733,5 @@ C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h
               It=stdext::checked_array_iterator<wchar_t *>
           ]
   
+  LINK : 没有找到 ..\bin\Debug-windows-x86_64\Sandbox\Sandbox.exe 或上一个增量链接没有生成它；正在执行完全链接
   Sandbox.vcxproj -> C:\dev\DreamEngine\bin\Debug-windows-x86_64\Sandbox\Sandbox.exe
