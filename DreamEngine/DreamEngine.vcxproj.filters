@@ -39,6 +39,8 @@
       <Filter>DreamEngine</Filter>
     </ClInclude>
     <ClInclude Include="src\Platform\Windows\WindowsWindow.h" />
+    <ClInclude Include="src\DreamEngine\LayerStack.h" />
+    <ClInclude Include="src\DreamEngine\Layer.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\DreamEngine\APP.cpp">
@@ -49,5 +51,7 @@
     </ClCompile>
     <ClCompile Include="src\depch.cpp" />
     <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp" />
+    <ClCompile Include="src\DreamEngine\LayerStack.cpp" />
+    <ClCompile Include="src\DreamEngine\Layer.cpp" />
   </ItemGroup>
 </Project>

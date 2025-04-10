@@ -5,6 +5,7 @@
 
 
 #include "DreamEngine/APP.h"
+#include "DreamEngine/Layer.h"
 #include "DreamEngine/Log.h"
 
 // ----------EntryPoint----------

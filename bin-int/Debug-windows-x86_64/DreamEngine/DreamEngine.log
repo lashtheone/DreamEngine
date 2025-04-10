@@ -1,6 +1,59 @@
 ﻿cl : 命令行  warning D9025: 正在重写“/MTd”(用“/MDd”)
+  Layer.cpp
+C:\dev\DreamEngine\DreamEngine\src\DreamEngine\Layer.h(21,15): warning C4251: “DreamEngine::Layer::m_DebugName”:“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口以供“DreamEngine::Layer”的客户端使用
+  (编译源文件“/src/DreamEngine/Layer.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  
+  LayerStack.cpp
+C:\dev\DreamEngine\DreamEngine\src\DreamEngine\Layer.h(21,15): warning C4251: “DreamEngine::Layer::m_DebugName”:“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口以供“DreamEngine::Layer”的客户端使用
+  (编译源文件“/src/DreamEngine/LayerStack.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  
+C:\dev\DreamEngine\DreamEngine\src\DreamEngine\LayerStack.h(24,23): warning C4251: “DreamEngine::LayerStack::m_Layers”:“std::vector<DreamEngine::Layer *,std::allocator<DreamEngine::Layer *>>”需要有 dll 接口以供“DreamEngine::LayerStack”的客户端使用
+  (编译源文件“/src/DreamEngine/LayerStack.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      参见“std::vector<DreamEngine::Layer *,std::allocator<DreamEngine::Layer *>>”的声明
+  
+C:\dev\DreamEngine\DreamEngine\src\DreamEngine\LayerStack.h(25,33): warning C4251: “DreamEngine::LayerStack::m_LayerInsert”:“std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>”需要有 dll 接口以供“DreamEngine::LayerStack”的客户端使用
+C:\dev\DreamEngine\DreamEngine\src\DreamEngine\LayerStack.h(25,33): warning C4251:         with
+C:\dev\DreamEngine\DreamEngine\src\DreamEngine\LayerStack.h(25,33): warning C4251:         [
+C:\dev\DreamEngine\DreamEngine\src\DreamEngine\LayerStack.h(25,33): warning C4251:             _Ty=DreamEngine::Layer *
+C:\dev\DreamEngine\DreamEngine\src\DreamEngine\LayerStack.h(25,33): warning C4251:         ]
+  (编译源文件“/src/DreamEngine/LayerStack.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(255,7):
+      参见“std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>”的声明
+          with
+          [
+              _Ty=DreamEngine::Layer *
+          ]
+  
   APP.cpp
-C:\dev\DreamEngine\DreamEngine\src\DreamEngine\APP.h(22,27): warning C4251: “DreamEngine::APP::m_Window”:“std::unique_ptr<DreamEngine::Window,std::default_delete<DreamEngine::Window>>”需要有 dll 接口以供“DreamEngine::APP”的客户端使用
+C:\dev\DreamEngine\DreamEngine\src\DreamEngine\Layer.h(21,15): warning C4251: “DreamEngine::Layer::m_DebugName”:“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口以供“DreamEngine::Layer”的客户端使用
+  (编译源文件“/src/DreamEngine/APP.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  
+C:\dev\DreamEngine\DreamEngine\src\DreamEngine\LayerStack.h(24,23): warning C4251: “DreamEngine::LayerStack::m_Layers”:“std::vector<DreamEngine::Layer *,std::allocator<DreamEngine::Layer *>>”需要有 dll 接口以供“DreamEngine::LayerStack”的客户端使用
+  (编译源文件“/src/DreamEngine/APP.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      参见“std::vector<DreamEngine::Layer *,std::allocator<DreamEngine::Layer *>>”的声明
+  
+C:\dev\DreamEngine\DreamEngine\src\DreamEngine\LayerStack.h(25,33): warning C4251: “DreamEngine::LayerStack::m_LayerInsert”:“std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>”需要有 dll 接口以供“DreamEngine::LayerStack”的客户端使用
+C:\dev\DreamEngine\DreamEngine\src\DreamEngine\LayerStack.h(25,33): warning C4251:         with
+C:\dev\DreamEngine\DreamEngine\src\DreamEngine\LayerStack.h(25,33): warning C4251:         [
+C:\dev\DreamEngine\DreamEngine\src\DreamEngine\LayerStack.h(25,33): warning C4251:             _Ty=DreamEngine::Layer *
+C:\dev\DreamEngine\DreamEngine\src\DreamEngine\LayerStack.h(25,33): warning C4251:         ]
+  (编译源文件“/src/DreamEngine/APP.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(255,7):
+      参见“std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>”的声明
+          with
+          [
+              _Ty=DreamEngine::Layer *
+          ]
+  
+C:\dev\DreamEngine\DreamEngine\src\DreamEngine\APP.h(26,27): warning C4251: “DreamEngine::APP::m_Window”:“std::unique_ptr<DreamEngine::Window,std::default_delete<DreamEngine::Window>>”需要有 dll 接口以供“DreamEngine::APP”的客户端使用
   (编译源文件“/src/DreamEngine/APP.cpp”)
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3335,7):
       参见“std::unique_ptr<DreamEngine::Window,std::default_delete<DreamEngine::Window>>”的声明
@@ -13,7 +66,7 @@ C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h
   (编译源文件“/src/DreamEngine/APP.cpp”)
       C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2741,5):
       模板实例化上下文(最早的实例化上下文)为
-          C:\dev\DreamEngine\DreamEngine\src\DreamEngine\APP.cpp(23,3):
+          C:\dev\DreamEngine\DreamEngine\src\DreamEngine\APP.cpp(31,3):
           查看对正在编译的函数 模板 实例化“void spdlog::logger::trace<DreamEngine::Event>(const char *,const DreamEngine::Event &)”的引用
           C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\details\logger_impl.h(108,5):
           查看对正在编译的函数 模板 实例化“void spdlog::logger::log<DreamEngine::Event>(spdlog::level::level_enum,const char *,const DreamEngine::Event &)”的引用
@@ -306,6 +359,8 @@ C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h
               It=stdext::checked_array_iterator<char *>
           ]
   
+  WindowsWindow.cpp
+  正在生成代码...
     正在创建库 ..\bin\Debug-windows-x86_64\DreamEngine\DreamEngine.lib 和对象 ..\bin\Debug-windows-x86_64\DreamEngine\DreamEngine.exp
 LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
   DreamEngine.vcxproj -> C:\dev\DreamEngine\bin\Debug-windows-x86_64\DreamEngine\DreamEngine.dll
