@@ -1,12 +1,311 @@
 ﻿cl : 命令行  warning D9025: 正在重写“/MTd”(用“/MDd”)
   APP.cpp
-C:\dev\DreamEngine\DreamEngine\src\DreamEngine\APP.h(17,27): warning C4251: “DreamEngine::APP::m_Window”:“std::unique_ptr<DreamEngine::Window,std::default_delete<DreamEngine::Window>>”需要有 dll 接口以供“DreamEngine::APP”的客户端使用
+C:\dev\DreamEngine\DreamEngine\src\DreamEngine\APP.h(22,27): warning C4251: “DreamEngine::APP::m_Window”:“std::unique_ptr<DreamEngine::Window,std::default_delete<DreamEngine::Window>>”需要有 dll 接口以供“DreamEngine::APP”的客户端使用
   (编译源文件“/src/DreamEngine/APP.cpp”)
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3335,7):
       参见“std::unique_ptr<DreamEngine::Window,std::default_delete<DreamEngine::Window>>”的声明
   
-  WindowsWindow.cpp
-  正在生成代码...
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2741,5): warning C4996: 'stdext::checked_array_iterator<T *>::operator *': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2741,5): warning C4996:         with
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2741,5): warning C4996:         [
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2741,5): warning C4996:             T=char
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2741,5): warning C4996:         ]
+  (编译源文件“/src/DreamEngine/APP.cpp”)
+      C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2741,5):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\dev\DreamEngine\DreamEngine\src\DreamEngine\APP.cpp(23,3):
+          查看对正在编译的函数 模板 实例化“void spdlog::logger::trace<DreamEngine::Event>(const char *,const DreamEngine::Event &)”的引用
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\details\logger_impl.h(108,5):
+          查看对正在编译的函数 模板 实例化“void spdlog::logger::log<DreamEngine::Event>(spdlog::level::level_enum,const char *,const DreamEngine::Event &)”的引用
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\details\logger_impl.h(67,14):
+          查看对正在编译的函数 模板 实例化“OutputIt fmt::v5::format_to<const char*,DreamEngine::Event,500,char>(fmt::v5::basic_memory_buffer<char,500,std::allocator<char>> &,const String &,const DreamEngine::Event &)”的引用
+          with
+          [
+              OutputIt=std::back_insert_iterator<fmt::v5::internal::basic_buffer<char>>,
+              String=const char *
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(3470,9):
+          查看对正在编译的 类 模板 实例化“fmt::v5::format_arg_store<fmt::v5::basic_format_context<std::back_insert_iterator<fmt::v5::internal::basic_buffer<char>>,Char>,DreamEngine::Event>”的引用
+          with
+          [
+              Char=char
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\core.h(1091,36):
+          在编译 类 模板 成员函数“__int64 fmt::v5::format_arg_store<fmt::v5::basic_format_context<std::back_insert_iterator<fmt::v5::internal::basic_buffer<char>>,Char>,DreamEngine::Event>::get_types(void)”时
+          with
+          [
+              Char=char
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\core.h(1093,40):
+          查看对正在编译的函数 模板 实例化“unsigned __int64 fmt::v5::internal::get_types<Context,DreamEngine::Event,>(void)”的引用
+          with
+          [
+              Context=fmt::v5::basic_format_context<std::back_insert_iterator<fmt::v5::internal::basic_buffer<char>>,char>
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\core.h(1042,34):
+          查看对正在编译的 类 模板 实例化“fmt::v5::internal::get_type<Context,Arg>”的引用
+          with
+          [
+              Context=fmt::v5::basic_format_context<std::back_insert_iterator<fmt::v5::internal::basic_buffer<char>>,char>,
+              Arg=DreamEngine::Event
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\core.h(1034,41):
+          查看对正在编译的 类 模板 实例化“fmt::v5::internal::init<Context,const DreamEngine::Event &,fmt::v5::internal::custom_type>”的引用
+          with
+          [
+              Context=fmt::v5::basic_format_context<std::back_insert_iterator<fmt::v5::internal::basic_buffer<char>>,char>
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\core.h(604,17):
+          在编译 类 模板 成员函数“fmt::v5::internal::init<Context,const DreamEngine::Event &,fmt::v5::internal::custom_type>::operator fmt::v5::internal::value<Context>(void) const”时
+          with
+          [
+              Context=fmt::v5::basic_format_context<std::back_insert_iterator<fmt::v5::internal::basic_buffer<char>>,char>
+          ]
+              C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\core.h(1056,3):
+              请参阅 "fmt::v5::internal::make_arg" 中对 "fmt::v5::internal::init<Context,const DreamEngine::Event &,fmt::v5::internal::custom_type>::operator fmt::v5::internal::value<Context>" 的第一个引用
+          with
+          [
+              Context=fmt::v5::basic_format_context<std::back_insert_iterator<fmt::v5::internal::basic_buffer<char>>,char>
+          ]
+          and
+          [
+              Context=fmt::v5::format_context
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\core.h(604,72):
+          查看对正在编译的函数 模板 实例化“fmt::v5::internal::value<Context>::value<DreamEngine::Event>(const T &)”的引用
+          with
+          [
+              Context=fmt::v5::format_context,
+              T=DreamEngine::Event
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\core.h(576,1):
+          查看对正在编译的函数 模板 实例化“void fmt::v5::internal::value<Context>::format_custom_arg<T>(const void *,Context &)”的引用
+          with
+          [
+              Context=fmt::v5::format_context,
+              T=DreamEngine::Event
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\core.h(593,22):
+          查看对正在编译的函数 模板 实例化“std::back_insert_iterator<fmt::v5::internal::basic_buffer<char>> fmt::v5::formatter<T,char,void>::format<Context>(const T &,Context &)”的引用
+          with
+          [
+              T=DreamEngine::Event,
+              Context=fmt::v5::format_context
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\ostream.h(123,54):
+          查看对正在编译的函数 模板 实例化“std::back_insert_iterator<fmt::v5::internal::basic_buffer<char>> fmt::v5::formatter<fmt::v5::basic_string_view<char>,Char,void>::format<Context>(const T &,FormatContext &)”的引用
+          with
+          [
+              Char=char,
+              Context=fmt::v5::format_context,
+              T=fmt::v5::basic_string_view<char>,
+              FormatContext=fmt::v5::format_context
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(3198,48):
+          查看对正在编译的 类 模板 实例化“fmt::v5::arg_formatter<fmt::v5::formatter<fmt::v5::basic_string_view<char>,Char,void>::format::range_type>”的引用
+          with
+          [
+              Char=char
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2308,51):
+          查看对正在编译的 类 模板 实例化“fmt::v5::internal::arg_formatter_base<Range>”的引用
+          with
+          [
+              Range=fmt::v5::formatter<fmt::v5::basic_string_view<char>,char,void>::format::range_type
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1434,15):
+          查看对正在编译的 类 模板 实例化“fmt::v5::basic_writer<Range>”的引用
+          with
+          [
+              Range=fmt::v5::formatter<fmt::v5::basic_string_view<char>,char,void>::format::range_type
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2740,8):
+          在编译 类 模板 成员函数“void fmt::v5::basic_writer<Range>::write(char)”时
+          with
+          [
+              Range=fmt::v5::formatter<fmt::v5::basic_string_view<char>,char,void>::format::range_type
+          ]
+              C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1496,7):
+              请参阅 "fmt::v5::internal::arg_formatter_base<Range>::operator ()" 中对 "fmt::v5::basic_writer<Range>::write" 的第一个引用
+          with
+          [
+              Range=fmt::v5::formatter<fmt::v5::basic_string_view<char>,char,void>::format::range_type
+          ]
+              C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\core.h(801,5):
+              请参阅 "fmt::v5::visit" 中对 "fmt::v5::internal::arg_formatter_base<Range>::operator ()" 的第一个引用
+          with
+          [
+              Range=fmt::v5::formatter<fmt::v5::basic_string_view<char>,char,void>::format::range_type
+          ]
+  
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2910,7): warning C4996: 'stdext::checked_array_iterator<T *>::operator *': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2910,7): warning C4996:         with
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2910,7): warning C4996:         [
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2910,7): warning C4996:             T=char
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2910,7): warning C4996:         ]
+  (编译源文件“/src/DreamEngine/APP.cpp”)
+      C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2910,7):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(3198,17):
+          查看对正在编译的函数 模板 实例化“std::back_insert_iterator<fmt::v5::internal::basic_buffer<char>> fmt::v5::visit<fmt::v5::arg_formatter<fmt::v5::formatter<fmt::v5::basic_string_view<char>,Char,void>::format::range_type>,Context>(Visitor &&,const fmt::v5::basic_format_arg<Context> &)”的引用
+          with
+          [
+              Char=char,
+              Context=fmt::v5::format_context,
+              Visitor=fmt::v5::arg_formatter<fmt::v5::formatter<fmt::v5::basic_string_view<char>,char,void>::format::range_type>
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\core.h(803,12):
+          查看对正在编译的函数 模板 实例化“std::back_insert_iterator<fmt::v5::internal::basic_buffer<char>> fmt::v5::internal::arg_formatter_base<Range>::operator ()<double>(T)”的引用
+          with
+          [
+              Range=fmt::v5::formatter<fmt::v5::basic_string_view<char>,char,void>::format::range_type,
+              T=double
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1504,13):
+          查看对正在编译的函数 模板 实例化“void fmt::v5::basic_writer<Range>::write_double<T>(T,const fmt::v5::basic_format_specs<char> &)”的引用
+          with
+          [
+              Range=fmt::v5::formatter<fmt::v5::basic_string_view<char>,char,void>::format::range_type,
+              T=double
+          ]
+  
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2486,7): warning C4996: 'stdext::checked_array_iterator<T *>::operator *': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2486,7): warning C4996:         with
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2486,7): warning C4996:         [
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2486,7): warning C4996:             T=char
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2486,7): warning C4996:         ]
+  (编译源文件“/src/DreamEngine/APP.cpp”)
+      C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2486,7):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2710,8):
+          在编译 类 模板 成员函数“void fmt::v5::basic_writer<Range>::write(unsigned __int64)”时
+          with
+          [
+              Range=fmt::v5::formatter<fmt::v5::basic_string_view<char>,char,void>::format::range_type
+          ]
+              C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1496,7):
+              请参阅 "fmt::v5::internal::arg_formatter_base<Range>::operator ()" 中对 "fmt::v5::basic_writer<Range>::write" 的第一个引用
+          with
+          [
+              Range=fmt::v5::formatter<fmt::v5::basic_string_view<char>,char,void>::format::range_type
+          ]
+              C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\core.h(797,5):
+              请参阅 "fmt::v5::visit" 中对 "fmt::v5::internal::arg_formatter_base<Range>::operator ()" 的第一个引用
+          with
+          [
+              Range=fmt::v5::formatter<fmt::v5::basic_string_view<char>,char,void>::format::range_type
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2710,42):
+          查看对正在编译的函数 模板 实例化“void fmt::v5::basic_writer<Range>::write_decimal<unsigned __int64>(Int)”的引用
+          with
+          [
+              Range=fmt::v5::formatter<fmt::v5::basic_string_view<char>,char,void>::format::range_type,
+              Int=unsigned __int64
+          ]
+  
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2641,9): warning C4996: 'stdext::checked_array_iterator<T *>::operator *': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2641,9): warning C4996:         with
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2641,9): warning C4996:         [
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2641,9): warning C4996:             T=char
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2641,9): warning C4996:         ]
+  (编译源文件“/src/DreamEngine/APP.cpp”)
+      C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2641,9):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1504,13):
+          查看对正在编译的函数 模板 实例化“void fmt::v5::basic_writer<Range>::write_double<T>(T,const fmt::v5::basic_format_specs<char> &)”的引用
+          with
+          [
+              Range=fmt::v5::formatter<fmt::v5::basic_string_view<char>,char,void>::format::range_type,
+              T=double
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2877,14):
+          查看对正在编译的函数 模板 实例化“void fmt::v5::basic_writer<Range>::write_padded<fmt::v5::basic_writer<Range>::inf_or_nan_writer>(size_t,const fmt::v5::align_spec &,F &&)”的引用
+          with
+          [
+              Range=fmt::v5::formatter<fmt::v5::basic_string_view<char>,char,void>::format::range_type,
+              F=fmt::v5::basic_writer<fmt::v5::formatter<fmt::v5::basic_string_view<char>,char,void>::format::range_type>::inf_or_nan_writer
+          ]
+              C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2877,26):
+              请参阅 "fmt::v5::basic_writer<Range>::write_double::write_inf_or_nan_t::operator ()" 中对 "fmt::v5::basic_writer<Range>::write_padded" 的第一个引用
+          with
+          [
+              Range=fmt::v5::formatter<fmt::v5::basic_string_view<char>,char,void>::format::range_type
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2786,12):
+          查看对正在编译的函数 模板 实例化“void fmt::v5::basic_writer<Range>::inf_or_nan_writer::operator ()<stdext::checked_array_iterator<T *>>(It &&) const”的引用
+          with
+          [
+              Range=fmt::v5::formatter<fmt::v5::basic_string_view<char>,char,void>::format::range_type,
+              T=char,
+              It=stdext::checked_array_iterator<char *>
+          ]
+  
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2654,9): warning C4996: 'stdext::checked_array_iterator<T *>::operator *': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2654,9): warning C4996:         with
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2654,9): warning C4996:         [
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2654,9): warning C4996:             T=char
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2654,9): warning C4996:         ]
+  (编译源文件“/src/DreamEngine/APP.cpp”)
+      C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2654,9):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2922,3):
+          查看对正在编译的函数 模板 实例化“void fmt::v5::basic_writer<Range>::write_padded<fmt::v5::basic_writer<Range>::double_writer>(size_t,const fmt::v5::align_spec &,F &&)”的引用
+          with
+          [
+              Range=fmt::v5::formatter<fmt::v5::basic_string_view<char>,char,void>::format::range_type,
+              F=fmt::v5::basic_writer<fmt::v5::formatter<fmt::v5::basic_string_view<char>,char,void>::format::range_type>::double_writer
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2786,12):
+          查看对正在编译的函数 模板 实例化“void fmt::v5::basic_writer<Range>::double_writer::operator ()<stdext::checked_array_iterator<T *>>(It &&)”的引用
+          with
+          [
+              Range=fmt::v5::formatter<fmt::v5::basic_string_view<char>,char,void>::format::range_type,
+              T=char,
+              It=stdext::checked_array_iterator<char *>
+          ]
+  
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1440,38): warning C4996: 'stdext::checked_array_iterator<T *>::operator *': warning STL4043: stdext::checked_array_iterator, stdext::unchecked_array_iterator, and related factory functions are non-Standard extensions and will be removed in the future. std::span (since C++20) and gsl::span can be used instead. You can define _SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING or _SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS to suppress this warning.
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1440,38): warning C4996:         with
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1440,38): warning C4996:         [
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1440,38): warning C4996:             T=char
+C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1440,38): warning C4996:         ]
+  (编译源文件“/src/DreamEngine/APP.cpp”)
+      C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1440,38):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1443,8):
+          在编译 类 模板 成员函数“void fmt::v5::internal::arg_formatter_base<Range>::write_char(char)”时
+          with
+          [
+              Range=fmt::v5::formatter<fmt::v5::basic_string_view<char>,char,void>::format::range_type
+          ]
+              C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1521,42):
+              请参阅 "fmt::v5::internal::arg_formatter_base<Range>::char_spec_handler::on_char" 中对 "fmt::v5::internal::arg_formatter_base<Range>::write_char" 的第一个引用
+          with
+          [
+              Range=fmt::v5::formatter<fmt::v5::basic_string_view<char>,char,void>::format::range_type
+          ]
+              C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1306,15):
+              请参阅 "fmt::v5::internal::handle_char_specs" 中对 "fmt::v5::internal::arg_formatter_base<Range>::char_spec_handler::on_char" 的第一个引用
+          with
+          [
+              Range=fmt::v5::formatter<fmt::v5::basic_string_view<char>,char,void>::format::range_type
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(1445,15):
+          查看对正在编译的函数 模板 实例化“void fmt::v5::basic_writer<Range>::write_padded<fmt::v5::internal::arg_formatter_base<Range>::char_writer>(size_t,const fmt::v5::align_spec &,F &&)”的引用
+          with
+          [
+              Range=fmt::v5::formatter<fmt::v5::basic_string_view<char>,char,void>::format::range_type,
+              F=fmt::v5::internal::arg_formatter_base<fmt::v5::formatter<fmt::v5::basic_string_view<char>,char,void>::format::range_type>::char_writer
+          ]
+          C:\dev\DreamEngine\DreamEngine\vendor\spdlog\include\spdlog\fmt\bundled\format.h(2786,12):
+          查看对正在编译的函数 模板 实例化“void fmt::v5::internal::arg_formatter_base<Range>::char_writer::operator ()<stdext::checked_array_iterator<T *>>(It &&) const”的引用
+          with
+          [
+              Range=fmt::v5::formatter<fmt::v5::basic_string_view<char>,char,void>::format::range_type,
+              T=char,
+              It=stdext::checked_array_iterator<char *>
+          ]
+  
     正在创建库 ..\bin\Debug-windows-x86_64\DreamEngine\DreamEngine.lib 和对象 ..\bin\Debug-windows-x86_64\DreamEngine\DreamEngine.exp
 LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
   DreamEngine.vcxproj -> C:\dev\DreamEngine\bin\Debug-windows-x86_64\DreamEngine\DreamEngine.dll
