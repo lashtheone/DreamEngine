@@ -13,8 +13,10 @@ outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 -- Include directories relative to root folder (solution directory)
 IncludeDir = {}
 IncludeDir["GLFW"] = "DreamEngine/vendor/GLFW/include"
+IncludeDir["Glad"] = "DreamEngine/vendor/Glad/include"
 
 include "DreamEngine/vendor/GLFW"
+include "DreamEngine/vendor/Glad"
 
 project "DreamEngine"
 	location "DreamEngine"
@@ -37,12 +39,14 @@ project "DreamEngine"
 	{
 		"%{prj.name}/src",
 		"%{prj.name}/vendor/spdlog/include",
-		"%{IncludeDir.GLFW}"
+		"%{IncludeDir.GLFW}",
+		"%{IncludeDir.Glad}"
 	}
 
 	links
 	{
 		"GLFW",
+		"Glad",
 		"opengl32.lib"
 	}
 
@@ -54,7 +58,8 @@ project "DreamEngine"
 		defines
 		{
 			"DE_PLATFORM_WINDOWS",
-			"DE_BUILD_DLL"
+			"DE_BUILD_DLL",
+			"GLFW_INCLUDE_NONE"
 		}
 
 		buildoptions { "/utf-8" }
