@@ -1,3 +1,6 @@
 [submodule "DreamEngine/vendor/spdlog"]
 	path = DreamEngine/vendor/spdlog
 	url = git@github.com:gabime/spdlog.git
+[submodule "DreamEngine/vendor/imgui"]
+	path = DreamEngine/vendor/imgui
+	url = git@github.com:TheCherno/imgui.git
