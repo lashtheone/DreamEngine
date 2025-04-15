@@ -9,7 +9,11 @@ namespace DreamEngine {
 
 #define BIND_EVENT_FN(x) std::bind(&APP::x, this, std::placeholders::_1)
 
+	APP* APP::s_Instance = nullptr;
+
 	APP::APP() {
+		DE_CORE_ASSERT(!s_Instance, "APP already exists!");
+		s_Instance = this;
 		m_Window = std::unique_ptr<Window>(Window::Create());
 		m_Window->SetEventCallback(BIND_EVENT_FN(OnEvent));
 
@@ -20,10 +24,12 @@ namespace DreamEngine {
 
 	void APP::PushLayer(Layer* layer) {
 		m_LayerStack.PushLayer(layer);
+		layer->OnAttach();
 	}
 
 	void APP::PushOverlay(Layer* layer) {
 		m_LayerStack.PushOverlay(layer);
+		layer->OnAttach();
 	}
 
 	void APP::OnEvent(Event& e) {
