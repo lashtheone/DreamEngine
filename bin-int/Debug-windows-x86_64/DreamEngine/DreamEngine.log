@@ -28,10 +28,18 @@ C:\dev\DreamEngine\DreamEngine\src\DreamEngine\APP.h(29,27): warning C4251: “D
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3335,7):
       参见“std::unique_ptr<DreamEngine::Window,std::default_delete<DreamEngine::Window>>”的声明
   
-C:\dev\DreamEngine\DreamEngine\src\DreamEngine\ImGui\ImGuiLayer.cpp(59,80): warning C4244: “参数”: 从“unsigned int”转换到“float”，可能丢失数据
+C:\dev\DreamEngine\DreamEngine\src\DreamEngine\ImGui\ImGuiLayer.cpp(62,80): warning C4244: “参数”: 从“unsigned int”转换到“float”，可能丢失数据
   (编译源文件“/src/DreamEngine/ImGui/ImGuiLayer.cpp”)
   
-C:\dev\DreamEngine\DreamEngine\src\DreamEngine\ImGui\ImGuiLayer.cpp(59,51): warning C4244: “参数”: 从“unsigned int”转换到“float”，可能丢失数据
+C:\dev\DreamEngine\DreamEngine\src\DreamEngine\ImGui\ImGuiLayer.cpp(62,51): warning C4244: “参数”: 从“unsigned int”转换到“float”，可能丢失数据
   (编译源文件“/src/DreamEngine/ImGui/ImGuiLayer.cpp”)
   
+C:\dev\DreamEngine\DreamEngine\src\DreamEngine\ImGui\ImGuiLayer.cpp(152,52): warning C4244: “参数”: 从“unsigned int”转换到“float”，可能丢失数据
+  (编译源文件“/src/DreamEngine/ImGui/ImGuiLayer.cpp”)
+  
+C:\dev\DreamEngine\DreamEngine\src\DreamEngine\ImGui\ImGuiLayer.cpp(152,37): warning C4244: “参数”: 从“unsigned int”转换到“float”，可能丢失数据
+  (编译源文件“/src/DreamEngine/ImGui/ImGuiLayer.cpp”)
+  
+    正在创建库 ..\bin\Debug-windows-x86_64\DreamEngine\DreamEngine.lib 和对象 ..\bin\Debug-windows-x86_64\DreamEngine\DreamEngine.exp
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
   DreamEngine.vcxproj -> C:\dev\DreamEngine\bin\Debug-windows-x86_64\DreamEngine\DreamEngine.dll
